@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShapeImageView">
+        <!--形状-->
+        <attr name="shape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="roundRect" value="1" />
+            <enum name="bezier" value="2" />
+        </attr>
+
+        <!--圆角矩形时，圆角半径-->
+        <attr name="borderRadius" format="dimension|reference" />
+        <!--边框宽度-->
+        <attr name="borderWidth" format="dimension|reference" />
+        <!--边框颜色-->
+        <attr name="borderColor" format="color|reference" />
+        <!--弧形高度-->
+        <attr name="arcHeight" format="dimension|reference" />
+
+        <!--弧形弯曲的方向-->
+        <attr name="direction" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+
+
+    </declare-styleable>
+
+
+</resources>
